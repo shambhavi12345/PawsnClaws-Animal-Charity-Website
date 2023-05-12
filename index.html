@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PawsnClaws</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="./images/pawicon.ico" type="image/x-icon">
+    
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="nav-background">
+            <div class="mobile-logo">
+                <img src="./icons/logonew.svg" alt="">
+            </div>
+            <div class="mobile-nav">
+                <div class="nav-top">
+                    <ul>
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About">About us</a>
+                        </li>
+                        <li>
+                            <a href="#Home">Donate</a>
+                        </li>
+                        <li>
+                            <a href="#Events">Events</a>
+                        </li>
+                        <li>
+                            <a href="#Recent">Recent Activities</a>
+                        </li>
+                        <li>
+                            <a href="#News">Latest News</a>
+                        </li>
+                        <li>
+                            <a href="#Contact">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact flex items-center">
+                    <img src="./icons/phone.svg" alt="">
+                    <div>
+                        <h5>Call us: +91 7006095129</h5>
+                        <h6>E-mail : support@pawsnclaws.com</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                <header class="topbar">
+                    <div class="container flex justify-between items-center">
+                        <div class="icons">
+                            <a href="https://www.facebook.com/" target="blank"><img src="./icons/facebook.svg" alt=""></a>
+
+                            <a href="https://twitter.com/" target="blank"><img src="./icons/twitter.svg" alt=""></a>
+                        </div>
+                        <div>
+                            <marquee behavior="scroll" direction="left" scrollamount="10" width="1100px"> DONATE . ADOPT. SPREAD LOVE.
+                            </marquee>
+                        </div>
+                    </div>
+                </header>
+
+                <nav>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center">
+                            <a href="#Home" class="active">Home</a>
+                            <a href="#About">About us</a>
+                            <a href="#Home">Donate</a>
+                            <a href="#Events">Events</a>
+                            <a href="#News">Latest News</a>
+                            <a href="#Recent">Recent Activities</a>
+                            <a href="#Contact">Contact us</a>
+                            <form id="form" role="search"> 
+                                <input type="search" value="" id="search" onchange="openPage()">
+                                <button><img src="./icons/search.svg"></button>
+                            </form>
+                            <script>
+
+                                function openPage() {
+                                    var x = document.getElementById("search").value;
+                                    if(x == "home" || x=="Home"){
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#Home");
+                                    }
+                                    if (x === "donate" || x=="Donate" || x == "charity" || x== "fund") {
+                                    window.open("https://pages.razorpay.com/pl_Lm5GEWpUpnLbhN/view");
+                                    }
+                                    if (x === "contact" || x=="Contact" || x == "call" || x== "email") {
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#Contact");
+                                    }
+                                    if (x === "news" || x == "News" || x== "update") {
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#News");
+                                    }
+                                    if (x === "activities") {
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#Recent");
+                                    }
+                                    if (x === "about") {
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#About");
+                                    }
+                                    if (x === "events" || x == "camps" || x== "drives") {
+                                    window.open("file:///C:/Users/sihus/Downloads/DesignWebsite/DesignWebsite/index.html?#Events");
+                                    }
+                                    else{
+                                        window.open("/action_page.php");
+
+                                    }
+
+
+                            
+                                }
+                            </script>
+                            
+
+                        </div>
+                    </div>
+                </nav>
+
+                <header class="hero flex items-center">
+                    <div class="container">
+                        <div class="welcome flex items-center">
+                            <img src="./icons/logonew.svg" alt="">
+                            
+                        </div>
+                        <h1 id="Home" >We are legally pawsome!</h1>
+                        <p><i>"You have not lived today until you 
+                            have done something for someone 
+                            who can never repay 
+                            you."
+                        </i></p>
+                        <img src="peep.gif" alt="" height="410px" width="500px">
+                        
+                    </div>
+                </header>
+                
+
+                <div class="cover">
+                   
+                    <div class="information">
+                        <a href="https://rzp.io/l/u1GeKFa" target="blank"><button>DONATE</button></a>
+                    </div>
+            
+                </div>
+
+
+                <section class="top-act">
+                    <div class="container">
+                        <h1 id ="Recent" class="section-heading">Recent Activities</h1>
+                        <div class="slider">
+                            <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+                            <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
+                            <div class="event-slider">
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/bird.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                    <a href="https://krishijagran.com/farm-data/special-livestock-health-camp/" class="main4" target="blank"><h2 class="text-center">Medical Camp</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/vaccine.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="https://strayanimalfoundationindia.org/rabies-vaccination-drive/" class="main5" target="blank"><h2 class="text-center">Vaccination Drive</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/awareness.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="https://www.strawindia.org/animals-welfare-workshops-and-presentations.aspx" class="main6" target="blank"><h2 class="text-center">Awareness Workshop</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/fooddonation.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="https://www.feedingindia.org/donate/food-for-paws" class="main7" target="blank"><h2 class="text-center">Food Donation Drive</h2></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about-pc">
+                    <div class="container">
+                        <h1 class="section-heading">About Us</h1>
+                        <div class="about-pc-wrap flex">
+                            <div class="flex-1">
+                                <img src="./images/pws.jpeg" alt="">
+                            </div>
+                            <div class="flex-1">
+                                <h2 id="About"></h2>
+                                <p>PawsnClaws is a non-profit organization that works in collaboration with other national NGOs 
+                                    for helping our furry friends. Based in Solan, the organization consists of 20 enthusiastic members. Our aim is to help
+                                every animal in need and build a beautiful community as a whole.
+                            We carry out various donation and adoption drives on a small-scale in the cities of Solan and Shimla. 
+                        We hire new members in the month of June.We'll be glad to have you in our team!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="our-services">
+                    <div class="container">
+                        <h1 id="Events" class="section-heading">Events</h1>
+                        <div class="card-wrapper flex">
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/donate.svg" alt="">
+                                </div>
+                                <h2>DONATION DRIVES</h2>
+                                <p>PawsnClaws organizes donation drives on small-scale and our social media handles promote charity.
+                                   We believe in spreading love!
+                                </p>
+                                <a href="https://strayanimalfoundationindia.org/" class="main" target="blank">More about donation drives</a>
+                            
+                            </div>
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/dog.svg" alt="">
+                                </div>
+                                <h2 class="text-primary">ADOPTION CAMPS</h2>
+                                <p>Adoption camps are usually organized in the month of May. True love is a hop,skip and a dog shelter away!</p>
+                                <a href="https://thepetnest.com/adopt-a-pet" class="main2" target="blank">More about adoption camps</a>
+                            </div>
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/hospital.svg" alt="">
+                                </div>
+                                <h2>VACCINATION CAMPS</h2>
+                                <p>Vaccination camps are organized every month in Solan. These camps are organized 
+                                    in collaboration with the Pashu Palan Vibhag.</p>
+                                <a href="http://hpagrisnet.gov.in/hpagris/Fisheries/Default.aspx?SiteID=3&PageID=1380" class="main3" target="blank">More about vaccination camps</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="latest-news">
+                    <div class="container">
+                        <h1 id="News" class="section-heading">Latest News</h1>
+                        <div class="article-wrapper">
+                            <article class="card magic-shadow-sm">
+                                <div>
+                                    <img src="./images/vacc.jpg" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <div class="post-meta flex items-center justify-between">
+                                        <span>May 01,2023</span>
+                                        <div>
+                                            <span>Posted by <strong>FurCare</strong></span>
+                                            <span class="comment-count">12 Comments</span>
+                                        </div>
+                                    </div>
+
+                                    <h2>Vaccination camp for stray dogs organized in Solan</h2>
+                                    <p>PawsnClaws organized the first
+                                        vaccination camp of this <br>summer in collaboration with
+                                        the Pashu Palan Vibhag of HP.<br><span id="dots">...</span><span id="more">The event saw an increase innumber of volunteers this year. 
+                                        <br>Students from Jaypee University of<br>Information Technology were the <br>main organizers of this event.
+                                        As many as 50 dogs were vaccinated as part of the camp.<br>All the volunteers were lauded by the 
+                                        Chief Minister of HP,Shri Sukhwinder Sukhu for their selfless efforts.
+                                        </span></p>
+                                        <button class="btn btn-primary" onclick="myFunc()" id="myBtn">Read more</button>
+                                        <script>
+                                            function myFunc() {
+                                              var dots = document.getElementById("dots");
+                                              var moreText = document.getElementById("more");
+                                              var btnText = document.getElementById("myBtn");
+                                            
+                                              if (dots.style.display === "none") {
+                                                dots.style.display = "inline";
+                                                btnText.innerHTML = "Read more"; 
+                                                moreText.style.display = "none";
+                                              } else {
+                                                dots.style.display = "none";
+                                                btnText.innerHTML = "Read less"; 
+                                                moreText.style.display = "inline";
+                                              }
+                                            }
+                                            </script>
+                                </div>
+                            </article>
+                            <article class="card magic-shadow-sm">
+                                <div>
+                                    <img src="./images/adoption.jpg" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <div class="post-meta flex items-center justify-between">
+                                        <span>April 24,2023</span>
+                                        <div>
+                                            <span>Posted by <strong>PetCare</strong></span>
+                                            <span class="comment-count">20 Comments</span>
+                                        </div>
+                                    </div>
+
+                                    <h2>Adoption drive for stray animals organized in Shimla</h2>
+                                    <p>An adoption drive was organized today at Shimla for stray animals. The event 
+                                        was organized by PawsnClaws organization <span id="dots2">...</span><span id="more2">in  collaboration with <br>
+                                        the HP government. As many as 10 dogs, 5 cats and 15 birds were adopted by generous<br>
+                                    people from all over Shimla and Waknaghat.</span></p>
+                                        <button class="btn btn-primary" onclick="myFunc2()" id="myBtn2">Read more</button>
+                                        <script>
+                                            function myFunc2() {
+                                              var dots = document.getElementById("dots2");
+                                              var moreText = document.getElementById("more2");
+                                              var btnText = document.getElementById("myBtn2");
+                                            
+                                              if (dots.style.display === "none") {
+                                                dots.style.display = "inline";
+                                                btnText.innerHTML = "Read more"; 
+                                                moreText.style.display = "none";
+                                              } else {
+                                                dots.style.display = "none";
+                                                btnText.innerHTML = "Read less"; 
+                                                moreText.style.display = "inline";
+                                              }
+                                            }
+                                            </script>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="contact-us flex">
+                    <div class="contact-info-wrapper">
+                        <h1 id="Contact" class="section-heading">Contact us</h1>
+                        <div class="contact-info">
+                            <div>
+                                <div>
+                                    <img src="./icons/phone-2.svg" alt="">
+                                    <div>
+                                        <span>Call us:</span>
+                                        <span>+91 7006095129</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./icons/bag-2.svg" alt="">
+                                    <div>
+                                        <span>E-mail to join us:</span>
+                                        <span>support@pawsnclaws.com</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="wave.gif" alt="Dog-wave" style="width:300px;height:300px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3419.3480570264796!2d77.07015899999999!3d31.016551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39057db24364e085%3A0x4f4fefd65caa0317!2sJaypee%20University%20of%20Information%20Technology!5e0!3m2!1sen!2sin!4v1683274187020!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </section>
+
+                <footer>
+                    
+                <footer class="copyright">
+                    <div>
+                        Copyright © 2023 .All rights reserved by PawsnClaws and Shambhavi
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
